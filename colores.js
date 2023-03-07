@@ -21,3 +21,9 @@ document.getElementById("box3").addEventListener("mouseover", function() {
 document.getElementById("box3").addEventListener("mouseout", function() {
     document.getElementById("box3").style.backgroundColor = "rgb(85, 185, 130)";
 });
+
+
+var emailLink = document.getElementById('emailEnlace');
+		var emailAddress = 'ernestof@gmail.com';
+
+		emailLink.setAttribute('href', 'mailto:' + emailAddress);
